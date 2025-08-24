@@ -2,7 +2,7 @@ import Head from "next/head";
 import Link from "next/link";
 import { useRouter } from "next/router";
 import { useState } from "react";
-import Layout from "../components/Layout";
+import Layout from '../components/layout';
 import { signup } from "../services/authService";
 
 export default function SignUp() {
